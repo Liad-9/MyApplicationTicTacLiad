@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">My ApplicationTicTacLiad</string>
+    <string name="button_text">Button</string>
+    <string name="play_again">Play Again</string>
+    <string name="x">X</string>
+    <string name="o">O</string>
+    <string name="winner_message">%1$s has won!</string>
+    <string name="tie_message">Its a Tie!</string>
+    <string name="turn_message">%1$s\'s turn</string>
+
+    <string name="button_1_description">Top left cell</string>
+    <string name="button_2_description">Top center cell</string>
+    <string name="button_3_description">Top right cell</string>
+    <string name="button_4_description">Middle left cell</string>
+    <string name="button_5_description">Center cell</string>
+    <string name="button_6_description">Middle right cell</string>
+    <string name="button_7_description">Bottom left cell</string>
+    <string name="button_8_description">Bottom center cell</string>
+    <string name="button_9_description">Bottom right cell</string>
+
+    <string name="play_again_description">Play again</string>
+</resources>
