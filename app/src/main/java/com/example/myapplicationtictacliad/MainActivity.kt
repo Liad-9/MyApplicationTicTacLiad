@@ -6,8 +6,7 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -48,6 +47,8 @@ class MainActivity : AppCompatActivity() {
             button4, button5, button6,
             button7, button8, button9
         )
+
+        playerTextView.text = getString(R.string.turn_message, getString(R.string.x))
 
         buttons.forEachIndexed { index, button ->
             button.setOnClickListener {

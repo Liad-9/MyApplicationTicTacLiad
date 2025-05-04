@@ -134,14 +134,15 @@
         android:id="@+id/PlayAgain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/play_again"
-        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp"
         android:backgroundTint="#6200EE"
         android:contentDescription="@string/play_again_description"
-        app:layout_constraintTop_toBottomOf="@+id/gridLayout"
-        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/play_again"
+        android:textColor="#FFFFFF"
+        android:visibility="gone"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout" />
 
     <TextView
         android:id="@+id/Player"
